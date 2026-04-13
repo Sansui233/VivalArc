@@ -302,3 +302,24 @@ button.button-startpage:after{
 button.button-startpage:active{
     background:none !important;
 }
+
+/******************************
+/******** Bookmark bar ********
+*******************************/
+
+.color-behind-tabs-on#browser:not(.is-settingspage, .popup, .native).address-top-off.tabs-off.bookmark-bar-off #header,
+.color-behind-tabs-on#browser:not(.is-settingspage, .popup, .native).address-bottom-off.tabs-off.bookmark-bar-off #header {
+    background-color: transparent;
+}
+
+.bookmark-bar {
+    background-color: transparent;
+}
+
+.color-behind-tabs-on .bookmark-bar button {
+    background-color: transparent;
+}
+
+.color-behind-tabs-off .bookmark-bar button {
+    background-color: transparent;
+}
